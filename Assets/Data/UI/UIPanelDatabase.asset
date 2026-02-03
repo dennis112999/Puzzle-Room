@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e6b8b3e8b725ca4180ac63b15562d73, type: 3}
+  m_Name: UIPanelDatabase
+  m_EditorClassIdentifier: 
+  _allPanels:
+  - Id: MainMenuPanel
+    Prefab: {fileID: 4424023115842738972, guid: 14d77d0b86013fa49938c13e47a21e1a,
+      type: 3}
+  - Id: SettingsPanel
+    Prefab: {fileID: 2777140275272824285, guid: 3b69add1f39211e4bb837eff8e1b2361,
+      type: 3}
+  - Id: GameplayUIPanel
+    Prefab: {fileID: 5412352710086035648, guid: 39cddc5a2a547854ea3290967462c937,
+      type: 3}
+  - Id: TitleSceneSettingsPanel
+    Prefab: {fileID: 5199008448126787873, guid: b5e57a7ef3b2dc245b7036324ca30421,
+      type: 3}
